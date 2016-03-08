@@ -1,9 +1,9 @@
 # AutoPDFPrinter
 Given an website URL, this Python program downloads all PDFs and prints them without any user interaction.
 
-- All PDFs are printed to the default printer. 
-- Only works on Windows. 
-- PDF downloads are deleted after being printed.
+- All PDFs are printed to the default printer
+- Only works on Windows
+- PDF downloads are deleted after being printed
 
 AutoPDFPrinter was orginally written for an ecommerce store to be able to download and print all shipping labels automatically. 
  
