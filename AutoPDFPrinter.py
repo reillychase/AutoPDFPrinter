@@ -52,7 +52,7 @@ while attempts < 5:
         attempts = attempts + 1
 
 for link in anchor_links:
-    if '.pdf' in link.text:
+    if '.pdf' in link.get('href'):
         pdf_link = link.get('href')
         pdf_name = link.text
 
