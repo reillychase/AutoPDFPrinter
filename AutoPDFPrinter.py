@@ -25,7 +25,8 @@ AutoPDFPrinter  Copyright (C) 2016  Reilly Chase
 This program comes with ABSOLUTELY NO WARRANTY; for details see 'LICENSE'.
 This is free software, and you are welcome to redistribute it
 under certain conditions; see 'LICENSE' included for details.
-            '''
+
+'''
 
 # Dynamically get path to AcroRD32.exe
 AcroRD32Path = winreg.QueryValue(winreg.HKEY_CLASSES_ROOT,'Software\\Adobe\\Acrobat\Exe')
