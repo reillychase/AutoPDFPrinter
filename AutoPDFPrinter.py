@@ -12,6 +12,21 @@ import urllib2
 import _winreg as winreg
 import time, os, subprocess
 
+print '''
+                _        _____  _____  ______ _____      _       _
+     /\        | |      |  __ \|  __ \|  ____|  __ \    (_)     | |
+    /  \  _   _| |_ ___ | |__) | |  | | |__  | |__) | __ _ _ __ | |_ ___ _ __
+   / /\ \| | | | __/ _ \|  ___/| |  | |  __| |  ___/ '__| | '_ \| __/ _ \ '__|
+  / ____ \ |_| | || (_) | |    | |__| | |    | |   | |  | | | | | ||  __/ |
+ /_/    \_\__,_|\__\___/|_|    |_____/|_|    |_|   |_|  |_|_| |_|\__\___|_|
+
+
+AutoPDFPrinter  Copyright (C) 2016  Reilly Chase
+This program comes with ABSOLUTELY NO WARRANTY; for details see 'LICENSE'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; see 'LICENSE' included for details.
+            '''
+
 # Dynamically get path to AcroRD32.exe
 AcroRD32Path = winreg.QueryValue(winreg.HKEY_CLASSES_ROOT,'Software\\Adobe\\Acrobat\Exe')
 acroread = AcroRD32Path
