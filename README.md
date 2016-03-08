@@ -1,5 +1,5 @@
 # AutoPDFPrinter
-Given an website URL, this Python program downloads all PDFs and prints them without any user interaction.
+Given an website URL with links to PDFs, this Python program downloads all PDFs and prints them without any user interaction.
 
 - All PDFs are printed to the default printer
 - Only works on Windows
